@@ -15,4 +15,8 @@ Blog pozwala na rejestrację użytkowników oraz tworzenie i edycję wpisów prz
 Django app obsługuje rejestrację użytkowników oraz logowanie.
 
 ## Instrukcje
-2.2 Create Django App – blog app with registration and possibility to create new entries and update them by authors after login in. App should also allow user to create a new accounts.
+2.2 Create Django App – blog app with 
+(DONE) registration and 
+(DONE) possibility to create new entries and
+(DONE) update them by authors after login in. 
+(DONE) App should also allow user to create a new accounts.

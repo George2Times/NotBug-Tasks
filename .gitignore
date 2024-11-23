@@ -7,3 +7,10 @@ __pycache__/
 
 # katalogi buildów
 dist/
+
+# Plik bazy danych
+db.sqlite3
+
+# Pliki migracji
+*/migrations/*.py
+!*/migrations/__init__.py

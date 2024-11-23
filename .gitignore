@@ -1,0 +1,9 @@
+# Ignoruj moduły js/ts
+node_modules/
+
+# Ignoruj katalog __pycache__ oraz wszystkie pliki .pyc
+__pycache__/
+*.pyc
+
+# katalogi buildów
+dist/

@@ -10,7 +10,17 @@ dist/
 
 # Plik bazy danych
 db.sqlite3
+backend/flask-todo/instance/*.db
 
 # Pliki migracji
 */migrations/*.py
 !*/migrations/__init__.py
+
+# Dodaj Wirtualne Środowisko
+venv/
+
+# Plik konfiguracji wirtualnego środowiska
+.vscode/
+
+# Przechowuje zmienne środowiskowe (takie jak sekrety API)
+.env

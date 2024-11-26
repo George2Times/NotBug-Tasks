@@ -1,54 +1,81 @@
-# Angular build output
-/dist
-/tmp
-/out-tsc
-/.angular
+# General Entries
 
-# Dependencies
-/node_modules
-
-# Cypress output
-/cypress/screenshots
-/cypress/videos
-
-# Environment files
-/src/environments/*.ts
-
-# Ignore __pycache__ directory and all .pyc files
-__pycache__/
-*.pyc
-
-# build directories
-dist/
-
-# Database file
-db.sqlite3
-backend/flask-todo/instance/*.db
-
-# Migration files
-*/migrations/*.py
-!*/migrations/__init__.py
-
-# Add Virtual Environment
-venv/
-
-# IDE/editor specific files
-.idea/
-.vscode/
-*.sublime-workspace
-
-# Logs and temporary files
-*.log
-*.tmp
-*.swp
-
-# Stores environment variables (such as API secrets)
-.env
-
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Ignoring Cypress test examples
-NotBug-Tasks/frontend/cars-app/cars-app/cypress/e2e/1-getting-started
-NotBug-Tasks/frontend/cars-app/cars-app/cypress/e2e/2-advanced-examples
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log files
+*.log
+*.out
+*.err
+logs/
+
+# Python virtual environments
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.save
+
+# Test and coverage files
+coverage/
+*.lcov
+.nyc_output/
+.junit/
+.pytest_cache/
+
+# Compiled files
+*.class
+*.o
+*.so
+
+# Deployment and build files
+dist/
+build/
+*.egg
+
+# Cache directories
+.cache/
+.pip-cache/
+.tox/
+
+# Generated assets
+staticfiles/
+assets/
+
+# Angular (Frontend):
+frontend/**/dist/
+frontend/**/out-tsc/
+frontend/**/.angular/
+frontend/**/node_modules/
+frontend/**/coverage/
+
+# Django and Flask (Backend):
+backend/**/migrations/*.py
+backend/**/migrations/*.pyc
+backend/**/__pycache__/
+backend/**/staticfiles/
+backend/**/db.sqlite3
+backend/**/instance/
+
+# E2E Testing Tools:
+**/cypress/screenshots/
+**/cypress/videos/

@@ -1,6 +1,3 @@
-Of course! Here is an enhanced version of the README.md for your entire project, written in English for improved clarity and organization:
-
-```markdown
 # NotBug Recruitment Tasks
 
 This repository contains both frontend and backend projects that serve as recruitment tasks for NotBug. These projects are built using Angular, Flask, and Django.

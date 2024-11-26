@@ -9,7 +9,7 @@ To repozytorium zawiera projekty frontendowe i backendowe w ramach zadań rekrut
 ## Spis Treści
 
 ### Frontend
-1. [1.1 Angular App: Cars App](frontend/cars-app/) - Aplikacja do zarządzania pojazdami przechowywanymi w localStorage.
+1. DONE [1.1 Angular App: Cars App](frontend/cars-app/) - Aplikacja do zarządzania pojazdami przechowywanymi w localStorage.
 2. DONE [1.2 RxJS: Obliczenie średniego wieku osób](frontend/cars-app/src/app/services/rxjs-age-calc.ts) - Skrypt do obliczenia średniego wieku osób mieszkających w Polsce.
 3. [1.3 Angular App: Pokedex App](frontend/pokedex-app/) - Aplikacja do wyświetlania listy Pokemonów z użyciem PokeAPI.
 

@@ -1,26 +1,54 @@
-# Ignoruj moduły js/ts
-node_modules/
+# Angular build output
+/dist
+/tmp
+/out-tsc
+/.angular
 
-# Ignoruj katalog __pycache__ oraz wszystkie pliki .pyc
+# Dependencies
+/node_modules
+
+# Cypress output
+/cypress/screenshots
+/cypress/videos
+
+# Environment files
+/src/environments/*.ts
+
+# Ignore __pycache__ directory and all .pyc files
 __pycache__/
 *.pyc
 
-# katalogi buildów
+# build directories
 dist/
 
-# Plik bazy danych
+# Database file
 db.sqlite3
 backend/flask-todo/instance/*.db
 
-# Pliki migracji
+# Migration files
 */migrations/*.py
 !*/migrations/__init__.py
 
-# Dodaj Wirtualne Środowisko
+# Add Virtual Environment
 venv/
 
-# Plik konfiguracji wirtualnego środowiska
+# IDE/editor specific files
+.idea/
 .vscode/
+*.sublime-workspace
 
-# Przechowuje zmienne środowiskowe (takie jak sekrety API)
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Stores environment variables (such as API secrets)
 .env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignoring Cypress test examples
+NotBug-Tasks/frontend/cars-app/cars-app/cypress/e2e/1-getting-started
+NotBug-Tasks/frontend/cars-app/cars-app/cypress/e2e/2-advanced-examples

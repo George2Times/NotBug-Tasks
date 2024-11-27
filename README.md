@@ -119,7 +119,3 @@ Feel free to fork the repository, make improvements, and submit pull requests. A
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-
-This README includes a comprehensive overview of your project, how to run it, features, and areas for improvement. Let me know if you'd like to adjust anything!
